@@ -40,7 +40,7 @@ console.log("Enter inside index")
 const app = express();
 app.use(cors(
   {
-      origin: ["https://deploy-mern-frontend.vercel.app"],
+      origin: ["https://mobile-builder-deployment-pa9f.vercel.app"],
       methods: ["POST", "GET" , "PUT"],
       credentials: true
   }
